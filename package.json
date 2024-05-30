@@ -4,6 +4,8 @@
   "description": "This is react pratice for learning",
   
   "scripts": {
+    "start": "parcel index.html",
+    "build" : "parcel build index.html",
     "test": "jest"
   },
   "author": "Abhimanyu Ahuja",

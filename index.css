@@ -1,3 +1,31 @@
 #heading{
     color: red;
 }
+#header{
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.logo img {
+    height: 40px;
+  }
+  
+#search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+    /* width: 100%; */
+
+    
+  }
+  
+  #search-bar input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  .log{
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
