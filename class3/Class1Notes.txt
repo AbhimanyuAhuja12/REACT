@@ -1,0 +1,31 @@
+Ques1: why we import from react dom client instead of only react dom
+Ans:-In React 18, ReactDOMServer and ReactDOM were split into two separate packages: react-dom/server and react-dom/client. This was done to make it easier to tree-shake unused code and to improve the performance of React applications
+Here are some of the benefits of using react-dom/client:
+Improved performance:
+react-dom/client is optimized for performance in React 18. It uses a new rendering algorithm that is faster and more efficient than the previous algorithm.
+Tree-shaking:
+react-dom/client is tree-shakeable, which means that unused code will be removed from your bundle. This can result in a smaller bundle size and faster loading times.
+Smaller bundle size:
+react-dom/client is a smaller package than react-dom. This is because it only includes the code that is necessary for rendering React components on the client.
+Improved development experience:
+react-dom/client provides a number of new features that improve the development experience, such as support for concurrent mode and suspense.
+
+
+# systax for react.createElement
+React.createElement(type,{props},children); 
+// JSX code 
+<type {props} >{children}</type
+Parameters: React.createElement() takes three arguments. They are:
+
+type: the type of the HTML element (h1,p, button, etc).
+props: properties of the object({style:{size:10px}} or Eventhandlers, classNames,etc).
+children: anything that needs to be enclosed by that component.
+
+ReactDOM.render(element,containerElement);
+Parameters: ReactDOM.render() takes two arguments:
+
+element: The element that needs to be rendered in the DOM.
+containerElement: Where to render in the dom.
+
+
+
