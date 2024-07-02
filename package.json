@@ -2,10 +2,9 @@
   "name": "y",
   "version": "1.0.0",
   "description": "This is react pratice for learning",
-  
   "scripts": {
     "start": "parcel index.html",
-    "build" : "parcel build index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "author": "Abhimanyu Ahuja",
@@ -15,12 +14,12 @@
     "process": "^0.11.10"
   },
   "dependencies": {
+    "@mantine/core": "^7.10.2",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1"
   },
   "browserlist": [
     "last 3 versions"
   ]
-
-
 }
