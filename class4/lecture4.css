@@ -3,6 +3,9 @@
     justify-content: space-between;
     border: 1px solid gray;
 }
+a{
+    text-decoration: none;
+}
 .logo{
     width: 100px;
 }
@@ -52,8 +55,14 @@
 
 
 .search{
-    padding: 10px;
+     padding: 10px;
+    display: flex;
+    justify-content: center; 
+    border-radius: 10px;
+   
 }
+
+
 .res-logo{
     /* position: absolute; */
     /* top: 0px;
@@ -161,3 +170,53 @@
   width: 100%;
   height: 100%;
 }
+
+.search-bar{
+    height: 30px;
+    width:40%;
+    border: solid 1px gray;
+    
+    
+    
+}
+.filter-btn{
+    margin: 10px;
+    cursor: pointer;
+}
+
+.shimmer-card{
+    background-color:#f0f0f0;
+    margin: 10px; 
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 10px;
+
+   
+    
+}
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.login-button{
+    padding: 0 20px;
+    cursor: pointer;
+    margin: 5px;
+    border: none;
+    background-color: white;
+    
+}
+
+.root {
+    padding-top: rem(80px);
+    padding-bottom: rem(80px);
+  } 

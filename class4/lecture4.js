@@ -5,12 +5,15 @@ import ReactDOM from "react-dom/client"
 const HeaderComponent =()=>{
     return(
         <div className="header">
+         
+         {/* logo of website */}
           <div className="log-container">
             <img className="logo" src="https://cdn.dribbble.com/userupload/5966432/file/original-03c1fe57f7907074905632cbf187f058.png?resize=400x0">
 
             </img>
           </div >
-
+         
+         {/* menu items */}
           <div className="nav-items">
             <ul>
                 <li>Home</li>
@@ -19,6 +22,7 @@ const HeaderComponent =()=>{
                 <li>Cart</li>
             </ul>
           </div>
+
         </div>
     );
 };
@@ -1939,7 +1943,10 @@ const resList =[
 const BodyComponent =()=>{
     return (
        <div className="body">
-       <div className="search">Search</div>
+
+       <div className="search">
+        <input className="search-bar" type="text"  placeholder="search here" />
+       </div>
 
        <div className="resturant-container">
         
@@ -1995,7 +2002,8 @@ const BodyComponent =()=>{
         {resList.map((resturant) => (
         <ResturantCard key={resturant.info.id} resData={resturant} />
         ))};
-         
+        
+         console.log(resList.get(0));
 
 
 
@@ -2015,7 +2023,7 @@ const AppLayout =()=>{
 
     </div>
     )
-}
+};
 
 const root =ReactDOM.createRoot(document.getElementById("root"));
 root.render(<AppLayout />);
