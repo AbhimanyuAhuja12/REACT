@@ -69,3 +69,22 @@ useEffect()
 
 
 # whenever there is change in state variable update, react triggers a reconciliation cycle (re render the componenet)
+
+
+#types of routing
+client side routing
+server side routing
+
+
+# Redux Toolkit
+-Install @reduxjs/toolkit and react-redux
+-Build our own Store
+- Connect our store to our app
+- Slice (cartSlice)
+-dispatch(action)
+-Selector
+
+# Types of testing(developer)
+-Unit testing
+-Integration Testing
+- End to End Testing (e2e)
